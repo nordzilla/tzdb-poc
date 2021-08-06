@@ -28,6 +28,7 @@ fn compile_data() -> Result<(), Box<dyn std::error::Error>> {
         .arg("europe")
         .arg("northamerica")
         .arg("southamerica")
+        .arg("backward")
         .arg("-d")
         .arg(RELATIVE_DATA_PATH)
         .status()?;
